@@ -1,0 +1,44 @@
+.bg-body-lights{
+  background-image: url("../assets/bg-home-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+
+/*Customize bootstrap*/
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin label{
+    color: #A0A0A0 !important;
+}
+
+.form-control:focus{
+    border-bottom: 4px solid #DC6E51;
+    border-color: none !important;
+    box-shadow: none;
+}
+
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+}
+
+.btn-login-primary {
+  --bs-btn-color: #FFFFFF !important;
+  --bs-btn-bg: #DC6E51 !important;
+  --bs-btn-hover-color: #FFFFFF;
+  --bs-btn-hover-bg: #E47C61;
+}

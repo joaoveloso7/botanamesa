@@ -1,4 +1,89 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
 
-    
+html,
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #272727;
+}
+
+h1,h2,h3{
+    font-family: 'Orbitron', sans-serif;
+    line-height: 150%;
+}
+
+h1{
+    font-size: 3.5rem !important;
+}
+
+h2{
+    font-size: 2.5rem !important;
+}
+
+h3{
+    font-size: 1.5rem !important;
+}
+
+h4{
+    font-size: 1rem !important;
+}
+
+input,label{
+    text-align: left !important;
+    font-size: calc(1rem - 2px) !important;
+}
+
+p{
+    font-size: calc(1rem - 2px) !important;
+}
+
+a{
+    transition: 0.8s ease;
+}
+
+a:hover{
+    color: inherit;
+}
+
+/*Customizations*/
+
+.text-color-1{
+    color: #DBDBDB;
+}
+
+.text-color-2{
+    color: #DC6E51;
+}
+
+.text-color-1 span{
+    transition: 0.8s ease;
+    color: #DBDBDB;
+}
+
+.text-color-2 span{
+    transition: 0.8s ease;
+}
+
+.text-color-2 span:hover{
+    color: #E47C61;
+}
+
+.form-floating>.form-control, .form-floating>.form-control-plaintext, .form-floating>.form-select{
+    height: calc(3.5rem - 4px) !important;
+}
+
+.form-control{
+    color: #A0A0A0 !important;
+}
+
+.form-floating>label{
+    padding: 0.75rem 0.75rem;
 }
